@@ -1,0 +1,116 @@
+@charset "utf-8";
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    background-color: #F6F7DF;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+header {
+}
+header h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #003F96;
+    text-shadow: 0px 0px #2400A1;
+}
+header h2 {
+    text-align: center;
+    background-position: center center;
+    border-color: #3E8FFF;
+    background-image: -webkit-linear-gradient(0deg,rgba(62,143,255,1.00) 0%,rgba(156,197,255,1.00) 74.10%,rgba(255,255,255,1.00) 100%);
+    background-image: -moz-linear-gradient(0deg,rgba(62,143,255,1.00) 0%,rgba(156,197,255,1.00) 74.10%,rgba(255,255,255,1.00) 100%);
+    background-image: -o-linear-gradient(0deg,rgba(62,143,255,1.00) 0%,rgba(156,197,255,1.00) 74.10%,rgba(255,255,255,1.00) 100%);
+    background-image: linear-gradient(90deg,rgba(62,143,255,1.00) 0%,rgba(156,197,255,1.00) 74.10%,rgba(255,255,255,1.00) 100%);
+    border-radius: 15px;
+}
+main {
+}
+article h2 {
+    background-image: -webkit-linear-gradient(270deg,rgba(62,143,255,1.00) 0%,rgba(255,255,255,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(62,143,255,1.00) 0%,rgba(255,255,255,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(62,143,255,1.00) 0%,rgba(255,255,255,1.00) 100%);
+    border-radius: 5px;
+    background-image: linear-gradient(180deg,rgba(62,143,255,1.00) 0%,rgba(255,255,255,1.00) 100%);
+    text-align: center;
+    font-size: 30px;
+}
+
+nav a:link {
+    text-decoration: none;
+    color: #442CBC;
+
+
+
+}
+nav a:visited {
+    color: #416CF5;
+}
+nav a:hover {
+    color: #A492FF;
+}
+.container1 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container1.left {
+    margin-left: auto;
+    padding-left: 0px;
+
+}
+.container1 .right {
+    margin-right: auto;
+}
+.container2 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container2 .left {
+    padding-right: 0px;
+    margin-left: auto;
+}
+.container2 .right {
+    flex: 0.5;
+    margin-right: auto;
+}
+.container3 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container3 .left {
+    margin-left: auto;
+}
+.container3 .right {
+    flex: 0.5;
+    margin-right: auto;
+}
+.container4 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container4 .left {
+    margin-left: auto;
+}
+.container4 .right  {
+    margin-right: auto;
+}
+.container5 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container5 .left {
+    margin-left: auto;
+}
+.container5 .right  {
+    margin-right: auto;
+}
